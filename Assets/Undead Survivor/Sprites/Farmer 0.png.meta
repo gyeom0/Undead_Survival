@@ -150,8 +150,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74043c17606032c4d968e4ce300fb33b
-      internalID: -1413294825
+      spriteID: fe040eea6ac024226bd9e5a26e2df83a
+      internalID: -1285358995
       vertices: []
       indices: 
       edges: []
@@ -171,8 +171,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 188e8f1761dccac4baa113bec2755a97
-      internalID: -835281720
+      spriteID: ccf1d75430a644b3aab7c36b39a6bc3c
+      internalID: -627232842
       vertices: []
       indices: 
       edges: []
@@ -192,8 +192,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e05a9d43c59b8c4688b45933e75f43a
-      internalID: 323694377
+      spriteID: 3181eeb0186534668bc28994b7ea3127
+      internalID: -1899481739
       vertices: []
       indices: 
       edges: []
@@ -213,8 +213,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a435002f75293b44ea6f6fd83cdfc2d0
-      internalID: 226952688
+      spriteID: 0be4a7e5e36ba45f3a795262eab5c781
+      internalID: 2101606911
       vertices: []
       indices: 
       edges: []
@@ -234,8 +234,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7347bfd820e47ee46b3ca19dba625c14
-      internalID: -1374332788
+      spriteID: 1a20085ac36304992bd466615f8b2fd1
+      internalID: -1303777066
       vertices: []
       indices: 
       edges: []
@@ -255,8 +255,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34cd6c43159da2e4491a60af52f8d764
-      internalID: -1176146041
+      spriteID: 7765d9b52e71b4080b075f16b3517ad0
+      internalID: -1435632998
       vertices: []
       indices: 
       edges: []
@@ -276,8 +276,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9001df712662cf4c938ef2bbcc1c080
-      internalID: 978012912
+      spriteID: de34ff4f99f274fe191aec158ec15e8b
+      internalID: -804598747
       vertices: []
       indices: 
       edges: []
@@ -297,8 +297,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3be3ea961be22749a76d8dc6c26537d
-      internalID: -1746337116
+      spriteID: bf6758110604e48e5b82cd76a4042346
+      internalID: -1432727836
       vertices: []
       indices: 
       edges: []
@@ -318,8 +318,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d709f65dde219b948a1c9d429e0d1cf4
-      internalID: 1568079989
+      spriteID: 9a0a831b166504bf5af09824e31044b0
+      internalID: -628760077
       vertices: []
       indices: 
       edges: []
@@ -339,8 +339,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 542128bc57968d2478baf28ce7f2308d
-      internalID: -515329287
+      spriteID: 4fb7aa0617bfa4629a98861fa8fb13bb
+      internalID: -1200680366
       vertices: []
       indices: 
       edges: []
@@ -360,8 +360,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42c94122421cf1343b1e68650719151d
-      internalID: 2129895255
+      spriteID: e444df2ad8b164a9a8ae346e6f29d51c
+      internalID: 213584839
       vertices: []
       indices: 
       edges: []
@@ -381,8 +381,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac5ad530b12f7914cb4f3c95978366fe
-      internalID: -810896228
+      spriteID: 9ce172c3fead54fe781fb2826450a90e
+      internalID: -788926761
       vertices: []
       indices: 
       edges: []
@@ -398,18 +398,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Dead 0: 2129895255
-      Dead 1: -810896228
-      Run 0: -1413294825
-      Run 1: -835281720
-      Run 2: 323694377
-      Run 3: 226952688
-      Run 4: -1374332788
-      Run 5: -1176146041
-      Stand 0: 978012912
-      Stand 1: -1746337116
-      Stand 2: 1568079989
-      Stand 3: -515329287
+      Dead 0: 213584839
+      Dead 1: -788926761
+      Run 0: -1285358995
+      Run 1: -627232842
+      Run 2: -1899481739
+      Run 3: 2101606911
+      Run 4: -1303777066
+      Run 5: -1435632998
+      Stand 0: -804598747
+      Stand 1: -1432727836
+      Stand 2: -628760077
+      Stand 3: -1200680366
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

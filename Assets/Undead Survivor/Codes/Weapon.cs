@@ -40,11 +40,11 @@ public class Weapon : MonoBehaviour
         break;
     }
 
-    //Testcode...
-    if (Input.GetButtonDown("Jump"))
-    {
-      LevelUp(10, 1);
-    }
+    // //Testcode...
+    // if (Input.GetButtonDown("Jump"))
+    // {
+    //   LevelUp(10, 1);
+    // }
   }
 
 

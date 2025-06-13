@@ -43,7 +43,6 @@ public class Weapon : MonoBehaviour
     // }
   }
 
-
   public void LevelUp(float damage, int count)
   {
     this.damage = damage;
@@ -83,9 +82,15 @@ public class Weapon : MonoBehaviour
         Batch();
         break;
       default:
-        speed = 0.3f;
+        speed = 0.4f;
         break;
     }
+
+    // Hand Set
+    Hand hand = player.hands[(int)data.itemType];
+    hand.spriter.sprite = data.hand;
+    hand.gameObject.SetActive(true);
+
     player.BroadcastMessage("ApplyGear", SendMessageOptions.DontRequireReceiver);
   }
 

@@ -22,21 +22,29 @@ public class Player : MonoBehaviour
     scanner = GetComponent<Scanner>();
     hands = GetComponentsInChildren<Hand>(true);
   }
-
+  void Update()
+  {
+    if (!GameManager.instance.isLive)
+      return;
+    inputVec.x = Input.GetAxisRaw("Horizontal");
+    inputVec.y = Input.GetAxisRaw("Vertical");
+  }
   void FixedUpdate()
   {
+    if (!GameManager.instance.isLive)
+      return;
     Vector2 nextVec = inputVec * speed * Time.fixedDeltaTime;
     // 3. 위치 이동
     rigid.MovePosition(rigid.position + nextVec);
   }
-  void OnMove(InputValue value)
-  {
-    inputVec = value.Get<Vector2>();
-  }
+
 
   void LateUpdate()
   {
+    if (!GameManager.instance.isLive)
+      return;
     anim.SetFloat("Speed", inputVec.magnitude);
+
     if (inputVec.x != 0)
     {
       spriter.flipX = inputVec.x < 0;
@@ -44,4 +52,3 @@ public class Player : MonoBehaviour
   }
 
 }
-
